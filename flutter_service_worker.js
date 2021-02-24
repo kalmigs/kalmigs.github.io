@@ -13,10 +13,15 @@ const RESOURCES = {
 "assets/assets/fonts/Moon2.0-Light.otf": "14e8e211ca6c8cd2bc46f566ab2a3c67",
 "assets/assets/images/portfolio04.png": "e06d2bd842cd40e33113b3556b45b070",
 "assets/assets/images/starter01.png": "6be1ea1522a9e53c6bc3efdab838a812",
+"assets/assets/images/aabbq03.png": "4f41424f8f8e52f898d91c08ae3213a1",
 "assets/assets/images/portfolio03.png": "2215f877bb56d848cf7a7eae84266a0a",
+"assets/assets/images/aabbq04.png": "54e93eedae92d5421f5632098799000f",
+"assets/assets/images/aabbq01.png": "a8ec5d076a10b764f6a0d70777509140",
+"assets/assets/images/starter02.png": "533cdbb125cb6e88d1543b1274802fed",
 "assets/assets/images/pektogo03.png": "3166f5cd76ac71beb528b5eb59402715",
 "assets/assets/images/dboard01.png": "010a4a85db73f4d917034ef1fcf85e76",
 "assets/assets/images/pektogo04.png": "5d6312c0c475412d673de87dd5b0e8a8",
+"assets/assets/images/starter03.png": "42d8c77f2500f3cb2985c399bbd56498",
 "assets/assets/images/pektogo05.png": "7d67f232eddb82d7f64bd7e8fdaa364c",
 "assets/assets/images/pektogo02.png": "98887479d26652ada646442e751feb68",
 "assets/assets/images/dboard03.png": "a6898579ab3a8474af2366104a39fb69",
@@ -24,15 +29,16 @@ const RESOURCES = {
 "assets/assets/images/pektogo01.png": "0878581ff9abc08953fd59876e2b3b24",
 "assets/assets/images/dboard02.png": "bb4bacdc1c2a5bf2549ee902ec4745c4",
 "assets/assets/images/portfolio01.png": "a0321652b115db57baf7cffeff5333fa",
-"assets/AssetManifest.json": "f608d2f00852b3d9995630d27b3f11c6",
+"assets/assets/images/aabbq02.png": "0bd25e3d4b654d779e5e44e22e56f41c",
+"assets/AssetManifest.json": "4b3e822f253634c617e8303eed0bd6c3",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "00b294964dfc3bee6e7fc3369b21acd7",
-"main.dart.js": "da2e058f1c7a942561fffd9077617c88",
+"assets/NOTICES": "0d1f2dd2358cc090824900661edc02a1",
+"main.dart.js": "17287016e424060bac7d637a853e6b8a",
 "manifest.json": "a83bbbd9d23ea4d752fbcd44cdc544fa",
-"version.json": "5f79c14b43951d85b5527583e469202a",
-"index.html": "8c4a6c7108768c8bda7d8dfc59dc0a03",
-"/": "8c4a6c7108768c8bda7d8dfc59dc0a03",
+"version.json": "2279af1bc92aa2ab50bc1c765b3eabd3",
+"index.html": "031abfa097b8ce6fc810770ab6b4a584",
+"/": "031abfa097b8ce6fc810770ab6b4a584",
 "favicon.png": "816f9844852220fb32d34aaca19df7d7",
 "icons/Icon-192.png": "269e0c612e30140456bc7b4dff4d683a",
 "icons/Icon-512.png": "4ea278604085a844eb045735b10ca2c8"
@@ -179,7 +185,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
