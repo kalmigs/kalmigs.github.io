@@ -35,10 +35,11 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/NOTICES": "0d1f2dd2358cc090824900661edc02a1",
 "main.dart.js": "f8562294bf2336b4ed7ff3fbf9e45f19",
+"loader.css": "7a74080bf9599831b8fba1283425bf08",
 "manifest.json": "a83bbbd9d23ea4d752fbcd44cdc544fa",
 "version.json": "2279af1bc92aa2ab50bc1c765b3eabd3",
-"index.html": "4db5c00c1cb24b1fca28790deeb08fa2",
-"/": "4db5c00c1cb24b1fca28790deeb08fa2",
+"index.html": "00cfd508bf2de71b978596213dfd64ef",
+"/": "00cfd508bf2de71b978596213dfd64ef",
 "favicon.png": "816f9844852220fb32d34aaca19df7d7",
 "icons/Icon-192.png": "269e0c612e30140456bc7b4dff4d683a",
 "icons/Icon-512.png": "4ea278604085a844eb045735b10ca2c8"
