@@ -37,8 +37,8 @@ const RESOURCES = {
 "assets/AssetManifest.json": "656b3304b1df41f8f1bc10959d95f511",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
-"index.html": "8573764f1e97e1032cdbfb55635485cb",
-"/": "8573764f1e97e1032cdbfb55635485cb",
+"index.html": "a5d43ebf049fafef765ff979a7a48b7a",
+"/": "a5d43ebf049fafef765ff979a7a48b7a",
 "main.dart.js": "6791f34be304a5ad2f2b070f46448813",
 "loader.css": "7a74080bf9599831b8fba1283425bf08",
 "favicon.png": "816f9844852220fb32d34aaca19df7d7"
